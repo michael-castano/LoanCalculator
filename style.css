@@ -1,0 +1,92 @@
+body {
+  font:5px "Helvetica", Arial, sans-serif;
+  margin: 20px;
+  padding: 20 em;
+  background-color: #F5F4F4;
+  overflow: hidden;
+  position: block;
+  flex: 0 1 calc(20% - 8px);
+}
+
+input {
+  width: 50%;
+  height: 7.5%;
+  display: inline-block;
+}
+
+h1 {
+  color:black;
+  text-shadow: 0.5px 0.5px lightgrey;
+}
+
+h2 {
+  font-size: 7px;
+}
+
+br {
+  padding: 500x;
+  margin: 5px;
+}
+
+.gridRow {
+  width: 180%;
+  min-width: 180%;
+  background-color: #E7E5E5;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.blockItems {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: -10px;
+  width: 150%;
+  min-width: 15%;
+  min-height: 15%;
+  justify-content: flex-end;
+}
+
+Button {
+  font-size: 4px;
+  width: 30%;
+  height: 20%;
+  color: white;
+  background-color: #2B4162;
+  border: none;
+  border-radius: 6px;
+}
+
+.results {
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  margin-left: 25px;
+  display:inline-block;
+  text-align: left;
+  font-size: 0.5em;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  zoom: 3; 
+  flex-grow: 0;
+  flex-shrink: 0; 
+}
